@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_KEY = 'AIzaSyAsDNdoARlL91g27KGUYhnByENGdIw8tBk';
+import { API_KEY } from '@env';
 
 
 export async function authenticate(mode, email, password) {
